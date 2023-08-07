@@ -1,0 +1,137 @@
+/* Global styles */
+/* Set some initial styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the entire body of the document */
+  body {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white for better readability */
+  }
+  
+  /* Header styles */
+  header {
+    position: relative; /* Position the header relatively to its normal position */
+    display: flex; /* Use flexbox layout for the header content */
+    flex-direction: column; /* Arrange the elements in a column */
+    align-items: center; /* Center the content horizontally within the header */
+  }
+  
+  /* Styles for paragraphs inside the header */
+  header p {
+    text-align: center; /* Center-align the text within the paragraphs */
+    color: aliceblue; /* Set the text color to aliceblue */
+    margin: 10px; /* Add margin around the paragraphs */
+    padding: 10px; /* Add padding inside the paragraphs */
+    display: flex; /* Use flexbox layout for the paragraphs */
+    align-items: center; /* Center the content vertically within the paragraphs */
+  }
+  
+  /* Styles for the main heading (h1) inside the header */
+  header h1 {
+    text-align: center; /* Center-align the text within the heading */
+    color: aliceblue; /* Set the text color to aliceblue */
+    margin: 10px; /* Add margin around the heading */
+    display: flex; /* Use flexbox layout for the heading */
+    align-items: center; /* Center the content vertically within the heading */
+  }
+  
+  /* Styles for the logo inside the header */
+  header .logo {
+    background-image: url("IMAGE/Apple_logo_PNG2.png"); /* Set the background image for the logo */
+    background-size: 40px; /* Set the size of the logo image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: 50px; /* Set the width and height to match the desired size */
+    height: 50px;
+    margin: 20px; /* Add margin around the logo */
+    padding: 20px; /* Add padding inside the logo */
+  }
+  
+  /* Background image section styles */
+  .bgm {
+    background-image: url("IMAGE/Screenshot 2023-08-07 231956.png"); /* Set the background image for the section */
+    background-size: cover; /* Make the background image cover the entire section */
+    background-position: center; /* Center the background image within the section */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the height of the section to the full viewport height */
+    display: flex; /* Use flexbox layout for the section */
+    justify-content: center; /* Center the content horizontally within the section */
+    align-items: center; /* Center the content vertically within the section */
+    flex-direction: column; /* Arrange the elements in a column */
+  }
+  
+  /* Styles for the "Brand" section */
+  .Brand {
+    text-align: center; /* Center-align the text within the section */
+    color: aliceblue; /* Set the text color to aliceblue */
+    margin: 10px; /* Add margin around the section */
+    padding: 10px; /* Add padding inside the section */
+    font-family: Arial, Helvetica, sans-serif; /* Set the font family for the text */
+    display: flex; /* Use flexbox layout for the section */
+    align-items: center; /* Center the content vertically within the section */
+    font-size: 30px; /* Set the font size for the text */
+  }
+  
+  /* Styles for the "Design" section */
+  .Design {
+    text-align: center; /* Center-align the text within the section */
+    color: aliceblue; /* Set the text color to aliceblue */
+    margin: 10px; /* Add margin around the section */
+    padding: 10px; /* Add padding inside the section */
+    font-family: Arial, Helvetica, sans-serif; /* Set the font family for the text */
+    display: inline-flexbox; /* Use inline flexbox layout for the section */
+    align-items: center; /* Center the content vertically within the section */
+    position: inherit; /* Set the position of the section to inherit the parent's position */
+  }
+  
+  /* Styles for the "tribute" section */
+  .tribute {
+    display: grid; /* Use grid layout for the section */
+    grid-template-columns: 2fr 1fr; /* Set the column sizes for the grid */
+    max-width: 78rem; /* Set the maximum width of the section */
+    margin: 0px auto; /* Center the section horizontally */
+    background: white; /* Set the background color of the section to white */
+    color: black; /* Set the text color to black */
+    align-items: center; /* Center the content vertically within the section */
+    padding: 0px 0px 0px 1rem; /* Add padding to the section */
+  }
+  
+  /* Styles for the quote inside the "tribute" section */
+  .tribute blockquote {
+    text-align: center; /* Center-align the text within the quote */
+    font-size: 3rem; /* Set the font size for the quote */
+  }
+  
+  /* Styles for the image inside the "tribute" section */
+  .tribute img {
+    max-width: 100%; /* Set the maximum width of the image to 100% of its container */
+  }
+  
+  /* Styles for the "bio" section */
+  .bio {
+    margin: 2rem auto; /* Add margin around the section and center it horizontally */
+    padding: 0px 0.5rem; /* Add padding to the section */
+    max-width: 40rem; /* Set the maximum width of the section */
+  }
+  
+  /* Styles for the heading (h2) inside the "bio" section */
+  .bio > h2 {
+    margin-bottom: 1rem; /* Add margin below the heading */
+    font-size: 3rem; /* Set the font size for the heading */
+    line-height: 1.2; /* Set the line height for the heading */
+  }
+  
+  /* Styles for the text (p) inside the "bio" section */
+  .bio > p {
+    font-size: 1.2rem; /* Set the font size for the text */
+    line-height: 1.4; /* Set the line height for the text */
+  }
+  
+  /* Styles for the horizontal line (hr) inside the "bio" section */
+  .bio > hr {
+    margin-top: 2rem; /* Add margin above the horizontal line */
+  }
+  
